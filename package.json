@@ -1,0 +1,23 @@
+{
+  "name": "mycoursevilleapp",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "license": "MIT",
+  "description": "This program use electron to open mycourseville website because I annoyed on using it on web browser",
+  "author": "Tapaneeya Odmung",
+  "app-Id": "com.electron.mycourseville",
+  "build": {
+    "productName": "MyCourseVilleDesktop"
+  },
+  "scripts": {
+    "dev": "electronmon ./src/main.js",
+    "build": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^23.1.1",
+    "electron-builder": "^23.6.0",
+    "electronmon": "^2.0.2",
+    "eslint": "^8.34.0"
+  }
+}
