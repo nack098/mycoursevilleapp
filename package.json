@@ -7,7 +7,10 @@
   "author": "Tapaneeya Odmung",
   "app-Id": "com.electron.mycourseville",
   "build": {
-    "productName": "MyCourseVilleDesktop"
+    "productName": "MyCourseVilleDesktop",
+    "linux": {
+      "target": "tar.xz"
+    }
   },
   "scripts": {
     "dev": "electronmon ./src/main.js",
